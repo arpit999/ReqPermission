@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setMessage("Permission to access the microphone is required for this app to record audio.")
+                builder.setMessage("Permission to access the SD-CARD is required for this app to Download File.")
                         .setTitle("Permission required");
 
                 builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
